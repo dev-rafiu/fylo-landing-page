@@ -1,0 +1,46 @@
+form {
+  div {
+    margin: 1rem 0;
+  }
+
+  .error {
+    margin: 0;
+    text-align: left;
+    // display: none;
+    color: red;
+    margin-top: 0.3rem;
+  }
+
+  .valid-email {
+    border: 1px solid green;
+  }
+
+  .invalid-email {
+    border: 1px solid red;
+  }
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+input {
+  border: 1px solid var(--DesaturatedBlue);
+  font-size: 1rem;
+}
+button {
+  background-color: var(--bg-button);
+  text-transform: capitalize;
+  color: var(--clr-text-secondary);
+  transition: 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: hsl(224, 93%, 65%);
+  }
+}

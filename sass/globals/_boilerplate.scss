@@ -1,0 +1,22 @@
+@use "../util";
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+}
+
+::placeholder {
+  color: #bfbfbf;
+  font-size: 0.9rem;
+}

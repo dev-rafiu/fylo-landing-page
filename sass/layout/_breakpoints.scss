@@ -1,0 +1,59 @@
+@media (min-width: 1100px) {
+  h1,
+  form,
+  .testimonial {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .category1,
+  .category2 {
+    text-align: left;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .category1 form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+
+    .error {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  .input-wrapper {
+    width: 100%;
+  }
+
+  .button-wrapper {
+    width: 50%;
+
+    button {
+      height: 100%;
+    }
+  }
+
+  .get-access {
+    text-align: left;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // gap: 2rem;
+    }
+    form {
+      width: 100%;
+    }
+  }
+
+  .footer .links-category {
+    display: flex;
+    justify-content: space-between;
+  }
+}
